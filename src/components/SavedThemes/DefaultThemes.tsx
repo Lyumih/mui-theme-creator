@@ -14,7 +14,7 @@ import {
 import { useDispatch } from "react-redux"
 import { addNewDefaultTheme } from "../../state/actions"
 import { NewSavedTheme } from "../../state/types"
-import defaultThemes from "./defaultThemes"
+import defaultThemes from "./defaultThemesTemplates"
 import ThemeThumbnail from "./ThemeThumbnail"
 
 const useStyles = makeStyles((theme: Theme) =>

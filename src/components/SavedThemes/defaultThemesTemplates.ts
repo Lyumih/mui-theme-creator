@@ -18,6 +18,9 @@ const defaultThemeList: Omit<NewSavedTheme, "lastUpdated">[] = [
           dark: '#b61827',
         }
       },
+      typography: { 
+        fontFamily: 'Inter',
+      }
     },
     fonts: ["Inter"],
   },
@@ -38,6 +41,9 @@ const defaultThemeList: Omit<NewSavedTheme, "lastUpdated">[] = [
           dark: '#b61827',
         }
       },
+      typography: {
+        fontFamily: 'Inter',
+      }
     },
     fonts: ["Inter"],
   },
