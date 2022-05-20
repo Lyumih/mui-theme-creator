@@ -23,7 +23,7 @@ const initialState: RootState = {
       id: defaultThemeId,
       name: "My Theme",
       themeOptions: defaultThemeOptions,
-      fonts: ["Roboto"],
+      fonts: ["Inter"],
       lastUpdated: new Date().toISOString(),
     },
   },
