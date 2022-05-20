@@ -37,9 +37,10 @@ const initialState: RootState = {
   mobileWarningSeen: false,
 }
 
-const initialFonts = ["Droid Sans", "Droid Serif", "Open Sans", "Roboto"]
+const initialFonts = ["Inter", "Droid Sans", "Droid Serif", "Open Sans", "Roboto"]
 
 export default (state = initialState, action) => {
+  console.log(state)
   // run editor reducers
   state = {
     ...state,

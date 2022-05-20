@@ -22,7 +22,7 @@ export const defaultThemeOptions: ThemeOptions = {
   },
 }
 
-export const defaultTheme: Theme = createMuiTheme(defaultThemeOptions)
+export const defaultTheme: Theme = createMuiTheme()
 
 export const themeConfig: ThemeOptions = {
   palette: {

@@ -7,6 +7,7 @@ import { RootState } from "src/state/types"
 import AddIcon from "@material-ui/icons/Add"
 
 const defaultFonts = [
+  "Inter",
   "Lato",
   "Lora",
   "Montserrat",
