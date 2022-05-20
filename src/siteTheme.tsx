@@ -9,15 +9,20 @@ export const defaultThemeOptions: ThemeOptions = {
   palette: {
     type: "light" as PaletteType,
     primary: {
-      main: "#3f51b5", // the default primary color
+      main: "#0859FC", // the default primary color
     },
     secondary: {
-      main: "#f50057", // the default secondary color
+      main: "#37474F", // the default secondary color
     },
+    error: {
+      main: '#EF5350',
+      light: '#ff867c',
+      dark: '#b61827',
+    }
   },
 }
 
-export const defaultTheme: Theme = createMuiTheme()
+export const defaultTheme: Theme = createMuiTheme(defaultThemeOptions)
 
 export const themeConfig: ThemeOptions = {
   palette: {
