@@ -2,170 +2,44 @@ import { NewSavedTheme } from "src/state/types"
 
 const defaultThemeList: Omit<NewSavedTheme, "lastUpdated">[] = [
   {
-    name: "Material-UI Docs - Light",
+    name: "BCS-EF",
     themeOptions: {
       palette: {
         type: "light",
         primary: {
-          main: "#1976d2",
+          main: "#0859FC", // the default primary color
         },
         secondary: {
-          main: "rgb(220, 0, 78)",
+          main: "#37474F", // the default secondary color
         },
-        background: {
-          default: "#fff",
-          paper: "#fff",
-        },
+        error: {
+          main: '#EF5350',
+          light: '#ff867c',
+          dark: '#b61827',
+        }
       },
     },
     fonts: ["Inter"],
   },
   {
-    name: "Material-UI Docs - Dark",
+    name: "BCS-PFP",
     themeOptions: {
       palette: {
-        type: "dark",
+        type: "light",
         primary: {
-          main: "#90caf9",
+          main: "#0859FC", // the default primary color
         },
         secondary: {
-          main: "#f48fb1",
+          main: "#37474F", // the default secondary color
         },
-        background: {
-          default: "#212121",
-          paper: "#424242",
-        },
+        error: {
+          main: '#EF5350',
+          light: '#ff867c',
+          dark: '#b61827',
+        }
       },
     },
-    fonts: ["Roboto"],
-  },
-  {
-    name: "Hacker Theme",
-    themeOptions: {
-      palette: {
-        type: "dark",
-        primary: {
-          main: "#0f0",
-        },
-        background: {
-          default: "#111111",
-          paper: "#212121",
-        },
-      },
-      typography: {
-        fontFamily: "Open Sans",
-        h1: {
-          fontFamily: "Ubuntu Mono",
-        },
-        h2: {
-          fontFamily: "Ubuntu Mono",
-        },
-        h3: {
-          fontFamily: "Ubuntu Mono",
-        },
-        h4: {
-          fontFamily: "Ubuntu Mono",
-        },
-        h6: {
-          fontFamily: "Ubuntu Mono",
-        },
-        h5: {
-          fontFamily: "Ubuntu Mono",
-        },
-        subtitle1: {
-          fontFamily: "Ubuntu Mono",
-        },
-        subtitle2: {
-          fontFamily: "Ubuntu Mono",
-        },
-        button: {
-          fontFamily: "Ubuntu Mono",
-          fontWeight: 900,
-        },
-        overline: {
-          fontFamily: "Ubuntu Mono",
-        },
-      },
-    },
-    fonts: ["Open Sans", "Ubuntu Mono"],
-  },
-  {
-    name: "Dark Blue",
-    themeOptions: {
-      palette: {
-        type: "dark",
-        primary: {
-          main: "#5893df",
-        },
-        secondary: {
-          main: "#2ec5d3",
-        },
-        background: {
-          default: "#192231",
-          paper: "#24344d",
-        },
-      },
-    },
-    fonts: ["Roboto"],
-  },
-  {
-    name: "Red Rover",
-    themeOptions: {
-      palette: {
-        type: "dark",
-        primary: {
-          main: "#ff8f00",
-        },
-        secondary: {
-          main: "#f50057",
-        },
-        background: {
-          default: "#310000",
-          paper: "#731010",
-        },
-      },
-      typography: {
-        fontFamily: "Do Hyeon",
-      },
-      shape: {
-        borderRadius: 16,
-      },
-    },
-    fonts: ["Roboto", "Do Hyeon"],
-  },
-  {
-    name: "Comic Book",
-    themeOptions: {
-      palette: {
-        type: "dark",
-        primary: {
-          main: "#bd0707",
-        },
-        secondary: {
-          main: "#ffc510",
-        },
-        background: {
-          default: "#4c69f6",
-          paper: "#4c94f6",
-        },
-      },
-      typography: {
-        body1: {
-          fontFamily: "Roboto",
-        },
-        fontFamily: "Bangers",
-        caption: {
-          fontFamily: "Do Hyeon",
-        },
-        overline: {
-          fontFamily: "Do Hyeon",
-        },
-        body2: {
-          fontFamily: "Roboto",
-        },
-      },
-    },
-    fonts: ["Bangers", "Do Hyeon", "Roboto"],
+    fonts: ["Inter"],
   },
 ]
 
