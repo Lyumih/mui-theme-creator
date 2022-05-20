@@ -105,7 +105,7 @@ export const addNewSavedTheme = (name: string) => ({
   savedTheme: {
     name,
     themeOptions: defaultThemeOptions,
-    fonts: ["Roboto"],
+    fonts: ["Inter"],
   },
 })
 

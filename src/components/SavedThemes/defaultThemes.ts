@@ -18,7 +18,7 @@ const defaultThemeList: Omit<NewSavedTheme, "lastUpdated">[] = [
         },
       },
     },
-    fonts: ["Roboto"],
+    fonts: ["Inter"],
   },
   {
     name: "Material-UI Docs - Dark",

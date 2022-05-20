@@ -20,6 +20,9 @@ export const defaultThemeOptions: ThemeOptions = {
       dark: '#b61827',
     }
   },
+  typography: {
+    fontFamily: 'Inter',
+  },
 }
 
 export const defaultTheme: Theme = createMuiTheme()
